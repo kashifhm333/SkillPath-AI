@@ -1,0 +1,767 @@
+{
+  "users": [
+    {
+      "id": "usr_alex_morgan",
+      "email": "alex@example.com",
+      "name": "Alex Morgan",
+      "passwordHash": "$2a$10$A2PSKXqGnaelbzmlByWvJuGaZToDVHtLOnnRhQDnS.4Vav/I/FmvS",
+      "role": "learner",
+      "createdAt": "2026-03-01T00:00:00.000Z",
+      "updatedAt": "2026-03-10T00:00:00.000Z"
+    },
+    {
+      "id": "usr_6ef5e714-b2a3-414a-9349-b74d7536fc6a",
+      "email": "testuser_1791908750679@example.com",
+      "name": "Test Learner",
+      "passwordHash": "$2a$10$hDUGN2eYG6peqkNfZnckW.KUwf.5tDzAE7GxkP8a6lgMs8mMJkeXC",
+      "role": "learner",
+      "createdAt": "2026-10-13T16:25:50.874Z",
+      "updatedAt": "2026-10-13T16:25:50.874Z"
+    },
+    {
+      "id": "usr_801e5685-a1d3-434c-98ad-cd551534c348",
+      "email": "testuser_1791909498902@example.com",
+      "name": "Test Learner",
+      "passwordHash": "$2a$10$8h5iYPikPFacFiniVpg0K.3x/mO8fcAIGXvJsJSRvfghrhmg35CG.",
+      "role": "learner",
+      "createdAt": "2026-10-13T16:38:19.079Z",
+      "updatedAt": "2026-10-13T16:38:19.079Z"
+    },
+    {
+      "id": "usr_a148ef44-ed90-4cea-ab14-609d34bba104",
+      "email": "memonkashif0001@gmail.com",
+      "name": "Kashif Hussain",
+      "passwordHash": "$2a$10$7NI3X9jVWXc7mSPVB6LSs.h2Z54smDklAPGGqgwkEr5aFEKLbBL3C",
+      "role": "learner",
+      "createdAt": "2026-10-13T16:51:50.680Z",
+      "updatedAt": "2026-10-13T16:51:50.680Z"
+    },
+    {
+      "id": "usr_f44a5ad5-1b62-4ecd-a46c-adfaae814b43",
+      "email": "testuser_1791910989015@example.com",
+      "name": "Test Learner",
+      "passwordHash": "$2a$10$tDc1wE/gImHbRw1MNn3GXOeLDzU0CJvB7tMgKmbo9kMRPw9p2p96C",
+      "role": "learner",
+      "createdAt": "2026-10-13T17:03:09.197Z",
+      "updatedAt": "2026-10-13T17:03:09.197Z"
+    },
+    {
+      "id": "usr_79d4bac9-462b-4873-9471-7e8ea2802d35",
+      "email": "kashif@gmail.com",
+      "name": "kashif",
+      "passwordHash": "$2a$10$sp7kJ8H9qFhEnvr/qtdq7.yorLrS3De.EVlgunKSw4kLL7Xwu.vGu",
+      "role": "learner",
+      "createdAt": "2026-10-22T14:32:22.912Z",
+      "updatedAt": "2026-10-22T14:32:22.912Z"
+    },
+    {
+      "id": "usr_e1618485-3595-4076-93f0-a6619857538f",
+      "email": "kashifjaanmemon786110@gmail.com",
+      "name": "Kashif Memon",
+      "passwordHash": "$2a$10$itK.Tzc7xoCq38ZWDZzraevar.mOjdy6XZ0bAKalhR3oXxHJnBOWu",
+      "role": "learner",
+      "createdAt": "2026-10-30T12:27:40.235Z",
+      "updatedAt": "2026-10-30T12:27:40.235Z"
+    },
+    {
+      "id": "usr_0cf9d9d4-5cc2-4b79-bd84-f653e108536a",
+      "email": "testuser_1794389977895@example.com",
+      "name": "Test Learner",
+      "passwordHash": "$2a$10$oYIJCCGQAbZMFlcfe7sh6u4cAzT.12c1NnLQMg/gifhRnzdhwjgXG",
+      "role": "learner",
+      "createdAt": "2026-11-11T09:39:38.089Z",
+      "updatedAt": "2026-11-11T09:39:38.089Z"
+    },
+    {
+      "id": "usr_bf53aff2-5636-40fb-b899-e99ddd98a6c2",
+      "email": "testuser_1794390153862@example.com",
+      "name": "Test Learner",
+      "passwordHash": "$2a$10$2I8nGVyODdk38uUqiRZWp.BMKxpLCjKHUdtqpHWl7XZF6S/4bYmw2",
+      "role": "learner",
+      "createdAt": "2026-11-11T09:42:34.063Z",
+      "updatedAt": "2026-11-11T09:42:34.064Z"
+    }
+  ],
+  "profiles": [
+    {
+      "userId": "usr_alex_morgan",
+      "goal": "Become an AI Engineer",
+      "fields": [
+        "Artificial Intelligence",
+        "Data Science"
+      ],
+      "level": "Some experience",
+      "hours": 8,
+      "learningStyle": "Mixed",
+      "language": "English",
+      "ecosystem": "Cloud agnostic",
+      "operatingSystem": "Linux",
+      "onboardingComplete": true,
+      "assessmentScore": 78,
+      "streakDays": 12,
+      "lastActiveDate": "2026-10-13",
+      "weeklyMinutes": 275,
+      "roleReadinessPercent": 31
+    },
+    {
+      "userId": "usr_6ef5e714-b2a3-414a-9349-b74d7536fc6a",
+      "goal": "Become an AI Engineer",
+      "fields": [
+        "Artificial Intelligence"
+      ],
+      "level": "Some experience",
+      "hours": 8,
+      "learningStyle": "Mixed",
+      "language": "English",
+      "ecosystem": "Cloud agnostic",
+      "operatingSystem": "Linux",
+      "onboardingComplete": false,
+      "assessmentScore": 0,
+      "streakDays": 1,
+      "lastActiveDate": "2026-10-13",
+      "weeklyMinutes": 0,
+      "roleReadinessPercent": 10
+    },
+    {
+      "userId": "usr_801e5685-a1d3-434c-98ad-cd551534c348",
+      "goal": "Become an AI Engineer",
+      "fields": [
+        "Artificial Intelligence"
+      ],
+      "level": "Some experience",
+      "hours": 8,
+      "learningStyle": "Mixed",
+      "language": "English",
+      "ecosystem": "Cloud agnostic",
+      "operatingSystem": "Linux",
+      "onboardingComplete": false,
+      "assessmentScore": 0,
+      "streakDays": 1,
+      "lastActiveDate": "2026-10-13",
+      "weeklyMinutes": 0,
+      "roleReadinessPercent": 10
+    },
+    {
+      "userId": "usr_a148ef44-ed90-4cea-ab14-609d34bba104",
+      "goal": "Become an AI Engineer",
+      "fields": [
+        "Artificial Intelligence"
+      ],
+      "level": "I'm completely new",
+      "hours": 19,
+      "learningStyle": "Mixed",
+      "language": "English",
+      "ecosystem": "Cloud agnostic",
+      "operatingSystem": "Linux",
+      "onboardingComplete": true,
+      "assessmentScore": 25,
+      "streakDays": 1,
+      "lastActiveDate": "2026-10-13",
+      "weeklyMinutes": 0,
+      "roleReadinessPercent": 30
+    },
+    {
+      "userId": "usr_f44a5ad5-1b62-4ecd-a46c-adfaae814b43",
+      "goal": "Become an AI Engineer",
+      "fields": [
+        "Artificial Intelligence"
+      ],
+      "level": "Some experience",
+      "hours": 8,
+      "learningStyle": "Mixed",
+      "language": "English",
+      "ecosystem": "Cloud agnostic",
+      "operatingSystem": "Linux",
+      "onboardingComplete": false,
+      "assessmentScore": 0,
+      "streakDays": 1,
+      "lastActiveDate": "2026-10-13",
+      "weeklyMinutes": 0,
+      "roleReadinessPercent": 10
+    },
+    {
+      "userId": "usr_79d4bac9-462b-4873-9471-7e8ea2802d35",
+      "goal": "Grow in current role",
+      "fields": [
+        "Artificial Intelligence",
+        "Data Science",
+        "Cloud Computing"
+      ],
+      "level": "I'm completely new",
+      "hours": 14,
+      "learningStyle": "Hands-on",
+      "language": "Spanish",
+      "ecosystem": "AWS",
+      "operatingSystem": "Linux",
+      "onboardingComplete": true,
+      "assessmentScore": 25,
+      "streakDays": 1,
+      "lastActiveDate": "2026-10-22",
+      "weeklyMinutes": 0,
+      "roleReadinessPercent": 30
+    },
+    {
+      "userId": "usr_e1618485-3595-4076-93f0-a6619857538f",
+      "goal": "Grow in current role",
+      "fields": [
+        "Artificial Intelligence",
+        "Data Science"
+      ],
+      "level": "I'm completely new",
+      "hours": 8,
+      "learningStyle": "Mixed",
+      "language": "English",
+      "ecosystem": "Cloud agnostic",
+      "operatingSystem": "Linux",
+      "onboardingComplete": true,
+      "assessmentScore": 0,
+      "streakDays": 1,
+      "lastActiveDate": "2026-10-30",
+      "weeklyMinutes": 0,
+      "roleReadinessPercent": 20
+    },
+    {
+      "userId": "usr_0cf9d9d4-5cc2-4b79-bd84-f653e108536a",
+      "goal": "Become an AI Engineer",
+      "fields": [
+        "Artificial Intelligence"
+      ],
+      "level": "Some experience",
+      "hours": 8,
+      "learningStyle": "Mixed",
+      "language": "English",
+      "ecosystem": "Cloud agnostic",
+      "operatingSystem": "Linux",
+      "onboardingComplete": false,
+      "assessmentScore": 0,
+      "streakDays": 1,
+      "lastActiveDate": "2026-11-11",
+      "weeklyMinutes": 0,
+      "roleReadinessPercent": 10
+    },
+    {
+      "userId": "usr_bf53aff2-5636-40fb-b899-e99ddd98a6c2",
+      "goal": "Become an AI Engineer",
+      "fields": [
+        "Artificial Intelligence"
+      ],
+      "level": "Some experience",
+      "hours": 8,
+      "learningStyle": "Mixed",
+      "language": "English",
+      "ecosystem": "Cloud agnostic",
+      "operatingSystem": "Linux",
+      "onboardingComplete": false,
+      "assessmentScore": 0,
+      "streakDays": 1,
+      "lastActiveDate": "2026-11-11",
+      "weeklyMinutes": 0,
+      "roleReadinessPercent": 10
+    }
+  ],
+  "stages": [
+    {
+      "id": "foundations",
+      "number": "01",
+      "title": "Strong foundations",
+      "subtitle": "Build the baseline needed for applied AI",
+      "progress": 75,
+      "duration": "3–4 weeks",
+      "status": "in_progress",
+      "topics": [
+        {
+          "id": "top_py_foundations",
+          "slug": "python-foundations",
+          "title": "Python foundations",
+          "subtitle": "Core syntax, data structures, and functional idioms",
+          "status": "mastered",
+          "completed": true,
+          "time": "4h 20m",
+          "videoDuration": "6:15",
+          "content": "Master Python fundamentals essential for production machine learning systems, including memory layouts, list comprehensions, and generators.",
+          "codeSnippet": "skills = {'python': 0.82, 'sql': 0.64}\nskills['ml'] = 0.71\nprint(skills.get('python')) # 0.82"
+        },
+        {
+          "id": "top_git_essentials",
+          "slug": "git-essentials",
+          "title": "Git essentials",
+          "subtitle": "Branching strategies, interactive rebasing, and atomic commits",
+          "status": "mastered",
+          "completed": true,
+          "time": "2h 10m",
+          "videoDuration": "3:40",
+          "content": "Learn professional git workflows, pull request hygiene, and versioning for machine learning models and codebases.",
+          "codeSnippet": "git checkout -b feature/model-pipeline\ngit commit -m 'feat: add vector embeddings stage'\ngit rebase -i main"
+        },
+        {
+          "id": "top_hash_maps",
+          "slug": "hash-maps",
+          "title": "Hash maps: lookups and trade-offs",
+          "subtitle": "Hash collisions, amortized complexity, and dictionary internals",
+          "status": "mastered",
+          "completed": true,
+          "time": "5h 40m",
+          "videoDuration": "4:32",
+          "content": "Hash maps trade a little memory for remarkably fast lookups. They use a deterministic hash function to map keys to bucket indices, providing O(1) average lookup and insertion.",
+          "codeSnippet": "lookup_table = {}\ndef cache_embedding(token_id, vector):\n    lookup_table[token_id] = vector\n    return lookup_table.get(token_id)"
+        },
+        {
+          "id": "top_linear_algebra",
+          "slug": "linear-algebra-essentials",
+          "title": "Linear algebra essentials",
+          "subtitle": "Vectors, dot products, matrices, and tensor transformations",
+          "status": "locked",
+          "completed": false,
+          "time": "4h 15m",
+          "videoDuration": "5:50",
+          "content": "Understand vector spaces, cosine similarity, and matrix multiplication underlying modern neural networks and attention mechanisms.",
+          "codeSnippet": "import numpy as np\nv1 = np.array([0.1, 0.9, -0.4])\nv2 = np.array([0.2, 0.8, -0.1])\nsimilarity = np.dot(v1, v2) / (np.linalg.norm(v1) * np.linalg.norm(v2))"
+        }
+      ]
+    },
+    {
+      "id": "core",
+      "number": "02",
+      "title": "Core machine learning",
+      "subtitle": "Learn to train, evaluate, and improve models",
+      "progress": 18,
+      "duration": "6–8 weeks",
+      "status": "up_next",
+      "topics": [
+        {
+          "id": "top_pandas_prep",
+          "slug": "data-prep-pandas",
+          "title": "Data preparation with Pandas",
+          "subtitle": "Data cleaning, feature engineering, and outlier detection",
+          "status": "active",
+          "completed": false,
+          "time": "6h 00m",
+          "videoDuration": "7:10",
+          "content": "Transform messy real-world datasets into clean, robust tensors ready for supervised learning models.",
+          "codeSnippet": "import pandas as pd\ndf = pd.read_csv('dataset.csv')\ndf_clean = df.dropna().assign(norm_val=lambda x: (x.val - x.val.mean()) / x.val.std())"
+        },
+        {
+          "id": "top_supervised",
+          "slug": "supervised-learning",
+          "title": "Supervised learning",
+          "subtitle": "Regression, classification, loss functions, and gradient descent",
+          "status": "locked",
+          "completed": false,
+          "time": "9h 00m",
+          "videoDuration": "8:20",
+          "content": "Train and evaluate linear models, decision trees, and ensemble methods using scikit-learn.",
+          "codeSnippet": "from sklearn.ensemble import RandomForestClassifier\nclf = RandomForestClassifier(n_estimators=100)\nclf.fit(X_train, y_train)"
+        },
+        {
+          "id": "top_model_eval",
+          "slug": "model-evaluation",
+          "title": "Model evaluation & validation",
+          "subtitle": "ROC-AUC, cross-validation, precision-recall trade-offs",
+          "status": "locked",
+          "completed": false,
+          "time": "5h 00m",
+          "videoDuration": "5:00",
+          "content": "Avoid data leakage, tune hyperparameters systematically, and measure generalizability.",
+          "codeSnippet": "from sklearn.metrics import classification_report\nprint(classification_report(y_test, predictions))"
+        }
+      ]
+    },
+    {
+      "id": "specialization",
+      "number": "03",
+      "title": "AI engineering specialization",
+      "subtitle": "Move from models to production AI systems",
+      "progress": 0,
+      "duration": "8–10 weeks",
+      "status": "locked",
+      "topics": [
+        {
+          "id": "top_deep_learning",
+          "slug": "deep-learning-systems",
+          "title": "Deep learning systems",
+          "subtitle": "PyTorch, backpropagation, and multilayer perceptrons",
+          "status": "locked",
+          "completed": false,
+          "time": "12h 00m",
+          "videoDuration": "10:15",
+          "content": "Construct neural networks from scratch and understand loss landscapes and optimization techniques.",
+          "codeSnippet": "import torch\nimport torch.nn as nn\nmodel = nn.Sequential(nn.Linear(128, 64), nn.ReLU(), nn.Linear(64, 10))"
+        },
+        {
+          "id": "top_llm_systems",
+          "slug": "large-language-models",
+          "title": "Large language models",
+          "subtitle": "Transformer architectures, embeddings, and context caching",
+          "status": "locked",
+          "completed": false,
+          "time": "10h 00m",
+          "videoDuration": "9:30",
+          "content": "Learn how decoder-only transformers work, how tokenization works, and how to query model APIs robustly.",
+          "codeSnippet": "from openai import OpenAI\nclient = OpenAI()\nresponse = client.chat.completions.create(model='gpt-4o', messages=[{'role': 'user', 'content': 'Explain RAG'}])"
+        },
+        {
+          "id": "top_mlops",
+          "slug": "mlops-deployment",
+          "title": "MLOps & deployment",
+          "subtitle": "Docker containerization, model monitoring, and latency budgets",
+          "status": "locked",
+          "completed": false,
+          "time": "8h 00m",
+          "videoDuration": "6:45",
+          "content": "Package models into low-latency REST and gRPC microservices with automated healthchecks.",
+          "codeSnippet": "FROM python:3.11-slim\nWORKDIR /app\nCOPY requirements.txt .\nRUN pip install -r requirements.txt\nCOPY . .\nCMD ['uvicorn', 'main:app', '--host', '0.0.0.0', '--port', '8000']"
+        }
+      ]
+    },
+    {
+      "id": "capstone",
+      "number": "04",
+      "title": "Portfolio capstone",
+      "subtitle": "Demonstrate job-ready skills with evidence",
+      "progress": 0,
+      "duration": "3–4 weeks",
+      "status": "locked",
+      "topics": [
+        {
+          "id": "top_rag_capstone",
+          "slug": "rag-assistant-capstone",
+          "title": "Build a production RAG assistant",
+          "subtitle": "Hybrid search, chunking strategies, and reranking pipeline",
+          "status": "locked",
+          "completed": false,
+          "time": "24h 00m",
+          "videoDuration": "12:00",
+          "content": "Design, build, and deploy an end-to-end Retrieval-Augmented Generation system with vector stores and semantic evaluation.",
+          "codeSnippet": "# Complete end-to-end multi-source hybrid search and reranking\nretrieved = hybrid_search(query, top_k=20)\nreranked = cross_encoder_rerank(query, retrieved, top_n=5)"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_1",
+      "topic": "Python",
+      "question": "Which structure provides average O(1) key lookup in Python?",
+      "options": [
+        "List",
+        "Dictionary",
+        "Tuple",
+        "Generator"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Python dictionaries use an optimized hash table under the hood, yielding O(1) average lookup time."
+    },
+    {
+      "id": "q_2",
+      "topic": "Machine learning",
+      "question": "What is the primary purpose of a validation dataset?",
+      "options": [
+        "Train model weights",
+        "Tune hyperparameters and assess generalization",
+        "Store raw data permanently",
+        "Deploy the model directly to production"
+      ],
+      "correctAnswer": 1,
+      "explanation": "Validation datasets prevent overfitting on training data by offering an unbiased evaluation while tuning hyperparameters."
+    },
+    {
+      "id": "q_3",
+      "topic": "Statistics",
+      "question": "Which metric is least affected by extreme outliers in a distribution?",
+      "options": [
+        "Mean",
+        "Range",
+        "Median",
+        "Variance"
+      ],
+      "correctAnswer": 2,
+      "explanation": "The median represents the central 50th percentile rank and is mathematically robust against extreme skew and outliers."
+    },
+    {
+      "id": "q_4",
+      "topic": "Data Engineering",
+      "question": "In relational databases, which index structure is typically used for range and equality queries?",
+      "options": [
+        "B-Tree",
+        "Linked List",
+        "Bloom Filter",
+        "Bitset"
+      ],
+      "correctAnswer": 0,
+      "explanation": "B-Trees balance tree height and optimize disk I/O, supporting logarithmic equality and sequential range scans."
+    }
+  ],
+  "practiceItems": [
+    {
+      "id": "prac_1",
+      "userId": "usr_alex_morgan",
+      "topic": "Python",
+      "title": "Python list comprehensions & generators",
+      "status": "Mastered",
+      "memoryStrength": 100,
+      "lastReviewed": "2026-10-13T16:51:05.108Z",
+      "dueToday": false
+    },
+    {
+      "id": "prac_2",
+      "userId": "usr_alex_morgan",
+      "topic": "Databases",
+      "title": "SQL joins and aggregation indexing",
+      "status": "Mastered",
+      "memoryStrength": 100,
+      "lastReviewed": "2026-10-13T16:51:07.340Z",
+      "dueToday": false
+    },
+    {
+      "id": "prac_3",
+      "userId": "usr_alex_morgan",
+      "topic": "Version Control",
+      "title": "Git branching and conflict resolution",
+      "status": "Mastered",
+      "memoryStrength": 100,
+      "lastReviewed": "2026-10-13T16:51:09.557Z",
+      "dueToday": false
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj_data_analyzer",
+      "title": "Build a data quality analyzer",
+      "subtitle": "Create a CLI tool that profiles CSV datasets, detects quality anomalies, and generates structured reports.",
+      "category": "Foundation Project",
+      "difficulty": "Intermediate",
+      "estimatedHours": "6–8 hours",
+      "status": "available",
+      "isCapstone": false,
+      "competencies": [
+        "Python",
+        "Data structures",
+        "Testing"
+      ],
+      "rubricCriteria": [
+        "Dataset schema inference",
+        "Null and anomaly detection",
+        "Unit test coverage > 80%",
+        "Markdown report output"
+      ]
+    },
+    {
+      "id": "proj_weather_api",
+      "title": "API-powered weather service",
+      "subtitle": "Build a resilient REST service consuming multiple weather APIs with Redis caching and graceful fallback.",
+      "category": "Integration Project",
+      "difficulty": "Beginner",
+      "estimatedHours": "4–6 hours",
+      "status": "available",
+      "isCapstone": false,
+      "competencies": [
+        "FastAPI",
+        "HTTP clients",
+        "Error handling"
+      ],
+      "rubricCriteria": [
+        "Clean REST contracts",
+        "Resilient timeouts",
+        "Cache hit optimization"
+      ]
+    },
+    {
+      "id": "proj_churn_model",
+      "title": "Customer churn prediction pipeline",
+      "subtitle": "End-to-end classification model evaluating churn probability with feature importance and SHAP analysis.",
+      "category": "Machine Learning",
+      "difficulty": "Intermediate",
+      "estimatedHours": "8–10 hours",
+      "status": "available",
+      "isCapstone": false,
+      "competencies": [
+        "Pandas",
+        "Scikit-Learn",
+        "SHAP"
+      ],
+      "rubricCriteria": [
+        "Feature preprocessing pipeline",
+        "Cross-validation",
+        "Model interpretability artifacts"
+      ]
+    },
+    {
+      "id": "proj_rag_assistant",
+      "title": "Production RAG assistant",
+      "subtitle": "Demonstrate enterprise retrieval augmented generation with multi-modal vector search and latency telemetry.",
+      "category": "Capstone",
+      "difficulty": "Advanced",
+      "estimatedHours": "20–24 hours",
+      "status": "locked",
+      "isCapstone": true,
+      "competencies": [
+        "LLMs",
+        "Vector DB",
+        "Docker",
+        "FastAPI"
+      ],
+      "rubricCriteria": [
+        "Chunking & Hybrid Search",
+        "Hallucination mitigation evaluation",
+        "Docker containerization with health checks"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "id": "res_1",
+      "type": "Video",
+      "title": "Hash Tables & Collision Resolution — CS50",
+      "source": "Harvard University",
+      "time": "18 min",
+      "rating": "4.9",
+      "url": "https://cs50.harvard.edu",
+      "tags": [
+        "Data structures",
+        "Foundations"
+      ],
+      "saved": true
+    },
+    {
+      "id": "res_2",
+      "type": "Documentation",
+      "title": "Python Dictionaries & Internal Hash Implementation",
+      "source": "Python.org",
+      "time": "12 min",
+      "rating": "4.8",
+      "url": "https://docs.python.org/3/tutorial/datastructures.html",
+      "tags": [
+        "Python",
+        "Documentation"
+      ],
+      "saved": false
+    },
+    {
+      "id": "res_3",
+      "type": "Interactive",
+      "title": "Visualizing Hash Functions and Bucket Collisions",
+      "source": "VisuAlgo",
+      "time": "15 min",
+      "rating": "4.7",
+      "url": "https://visualgo.net/en/hashtable",
+      "tags": [
+        "Interactive",
+        "Algorithms"
+      ],
+      "saved": true
+    },
+    {
+      "id": "res_4",
+      "type": "Article",
+      "title": "Hash Maps in High-Throughput Production Systems",
+      "source": "Engineering Notes",
+      "time": "9 min",
+      "rating": "4.6",
+      "url": "https://engineering.example.com/hash-maps",
+      "tags": [
+        "System Design",
+        "Performance"
+      ],
+      "saved": false
+    }
+  ],
+  "milestones": [
+    {
+      "id": "ms_1",
+      "userId": "usr_alex_morgan",
+      "targetDate": "Mar 28",
+      "title": "Complete programming foundations",
+      "progress": 68,
+      "status": "In progress"
+    },
+    {
+      "id": "ms_2",
+      "userId": "usr_alex_morgan",
+      "targetDate": "May 15",
+      "title": "Build and evaluate first ML model",
+      "progress": 18,
+      "status": "Upcoming"
+    },
+    {
+      "id": "ms_3",
+      "userId": "usr_alex_morgan",
+      "targetDate": "Aug 01",
+      "title": "Deploy an AI microservice to production",
+      "progress": 0,
+      "status": "Upcoming"
+    },
+    {
+      "id": "ms_4",
+      "userId": "usr_alex_morgan",
+      "targetDate": "Oct 20",
+      "title": "Publish capstone portfolio & achieve role readiness",
+      "progress": 0,
+      "status": "Goal"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif_1794389891641",
+      "userId": "usr_e1618485-3595-4076-93f0-a6619857538f",
+      "title": "Your roadmap was adapted",
+      "description": "Based on recent progress and diagnostics, topic sequence has been optimized.",
+      "timestamp": "Just now",
+      "tone": "purple",
+      "unread": true
+    },
+    {
+      "id": "notif_1791910344358",
+      "userId": "usr_a148ef44-ed90-4cea-ab14-609d34bba104",
+      "title": "Your roadmap was adapted",
+      "description": "Based on recent progress and diagnostics, topic sequence has been optimized.",
+      "timestamp": "Just now",
+      "tone": "purple",
+      "unread": true
+    },
+    {
+      "id": "notif_1791910340835",
+      "userId": "usr_a148ef44-ed90-4cea-ab14-609d34bba104",
+      "title": "Your roadmap was adapted",
+      "description": "Based on recent progress and diagnostics, topic sequence has been optimized.",
+      "timestamp": "Just now",
+      "tone": "purple",
+      "unread": true
+    },
+    {
+      "id": "notif_1",
+      "userId": "usr_alex_morgan",
+      "title": "Review ready",
+      "description": "Python list comprehensions is due for a quick spaced-repetition review.",
+      "timestamp": "10 min ago",
+      "tone": "blue",
+      "unread": false
+    },
+    {
+      "id": "notif_2",
+      "userId": "usr_alex_morgan",
+      "title": "Your roadmap was adapted",
+      "description": "We moved model evaluation earlier based on your diagnostic answers.",
+      "timestamp": "2 hours ago",
+      "tone": "purple",
+      "unread": false
+    },
+    {
+      "id": "notif_3",
+      "userId": "usr_alex_morgan",
+      "title": "New skill mastered",
+      "description": "You demonstrated mastery in Git essentials.",
+      "timestamp": "Yesterday",
+      "tone": "green",
+      "unread": false
+    },
+    {
+      "id": "notif_4",
+      "userId": "usr_alex_morgan",
+      "title": "New project feedback",
+      "description": "Your data analyzer rubric has been reviewed with passing score.",
+      "timestamp": "Monday",
+      "tone": "amber",
+      "unread": false
+    }
+  ]
+}
