@@ -33,7 +33,7 @@ export function createApp(): Express {
           styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
           fontSrc: ["'self'", "https://fonts.gstatic.com"],
           imgSrc: ["'self'", "data:", "https:"],
-          connectSrc: ["'self'", ...env.CLIENT_ORIGIN.split(",")],
+          connectSrc: ["'self'", "https://*.vercel.app", ...env.CLIENT_ORIGIN.split(",")],
         },
       },
       crossOriginEmbedderPolicy: false,
@@ -45,8 +45,14 @@ export function createApp(): Express {
   app.use(
     cors({
       origin: (origin, callback) => {
-        // Allow requests with no origin (mobile apps, curl, etc.)
-        if (!origin || allowedOrigins.includes(origin) || allowedOrigins.includes("*")) {
+        // Allow requests with no origin, matched origin, wildcard, or any vercel.app preview
+        if (
+          !origin ||
+          allowedOrigins.includes(origin) ||
+          allowedOrigins.includes("*") ||
+          origin.endsWith(".vercel.app") ||
+          process.env.NODE_ENV !== "production"
+        ) {
           callback(null, true);
         } else {
           callback(new Error(`Origin ${origin} not allowed by CORS`));
@@ -76,7 +82,17 @@ export function createApp(): Express {
   // Request correlation & logging
   app.use(requestLogger);
 
-  // Health and Readiness Checks
+  // Root Status & Health Checks
+  app.get("/", (_req, res) => {
+    res.status(200).json({
+      name: "SkillPath AI API",
+      status: "HEALTHY",
+      version: "1.0.0",
+      timestamp: new Date().toISOString(),
+      uptimeSeconds: Math.floor(process.uptime()),
+    });
+  });
+
   app.get("/health", (_req, res) => {
     res.status(200).json({
       status: "UP",

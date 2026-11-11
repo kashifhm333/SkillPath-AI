@@ -14,7 +14,9 @@ export class Database {
   private pendingSave = false;
 
   private constructor() {
-    this.dbPath = path.resolve(process.cwd(), env.DATA_DIR, "db.json");
+    const isVercel = Boolean(process.env.VERCEL);
+    const baseDir = isVercel ? "/tmp" : process.cwd();
+    this.dbPath = path.resolve(baseDir, env.DATA_DIR, "db.json");
   }
 
   public static getInstance(): Database {
@@ -25,8 +27,14 @@ export class Database {
   }
 
   public async init(): Promise<void> {
+    if (this.data) return;
+
     const dir = path.dirname(this.dbPath);
-    await fs.mkdir(dir, { recursive: true });
+    try {
+      await fs.mkdir(dir, { recursive: true });
+    } catch {
+      // directory exists or permission error
+    }
 
     try {
       const fileData = await fs.readFile(this.dbPath, "utf-8");
@@ -35,7 +43,11 @@ export class Database {
     } catch {
       logger.info("Initializing fresh database with default seeds...");
       this.data = await getDefaultSeeds();
-      await this.persist();
+      try {
+        await this.persist();
+      } catch (err) {
+        logger.warn("Could not persist initial seeds to disk (operating in-memory)", { error: String(err) });
+      }
     }
   }
 
@@ -61,7 +73,7 @@ export class Database {
       await fs.writeFile(tempPath, json, "utf-8");
       await fs.rename(tempPath, this.dbPath);
     } catch (err) {
-      logger.error("Failed to persist database to disk", { error: String(err) });
+      logger.warn("Failed to persist database to disk (operating in-memory)", { error: String(err) });
     } finally {
       this.isSaving = false;
       if (this.pendingSave) {
