@@ -7,7 +7,10 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-v4.0-38bdf8.svg)](https://tailwindcss.com/)
 [![Express](https://img.shields.io/badge/Express-4.21-000000.svg)](https://expressjs.com/)
 [![Docker](https://img.shields.io/badge/Docker-Ready-2496ed.svg)](https://www.docker.com/)
+[![Vercel Deployment](https://img.shields.io/badge/Vercel-Live_Demo-black?logo=vercel)](https://studentroadmap-sigma.vercel.app)
 [![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
+
+> 🚀 **Live Production Deployment**: [https://studentroadmap-sigma.vercel.app](https://studentroadmap-sigma.vercel.app)
 
 **SkillPath AI** is an enterprise-ready, personalized technical career roadmap and adaptive learning platform. It replaces generic, static video course catalogs with an intelligent, dynamic learning system tailored to each learner's diagnostic skills, study velocity, and career goals.
 
