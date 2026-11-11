@@ -2,6 +2,7 @@
   "name": "skillpath-ai-monorepo",
   "version": "1.0.0",
   "private": true,
+  "type": "module",
   "description": "SkillPath AI - Personalized Adaptive Learning Roadmap Platform",
   "scripts": {
     "dev": "concurrently -n \"backend,frontend\" -c \"cyan,magenta\" \"npm run dev:backend\" \"npm run dev:frontend\"",

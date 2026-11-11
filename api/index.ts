@@ -1,19 +1,26 @@
 import type { Request, Response } from "express";
-import { createApp } from "../app/backend/dist/app.js";
-import { db } from "../app/backend/dist/database/db.js";
-import { connectMongoDB } from "../app/backend/dist/database/mongodb.js";
 
-let initialized = false;
 let appInstance: any = null;
+let initPromise: Promise<any> | null = null;
+
+async function getApp() {
+  if (!initPromise) {
+    initPromise = (async () => {
+      const { createApp } = await import("../app/backend/dist/app.js");
+      const { db } = await import("../app/backend/dist/database/db.js");
+      const { connectMongoDB } = await import("../app/backend/dist/database/mongodb.js");
+
+      await db.init();
+      if (process.env.MONGODB_URI) {
+        await connectMongoDB().catch(() => {});
+      }
+      return createApp();
+    })();
+  }
+  return initPromise;
+}
 
 export default async function handler(req: Request, res: Response) {
-  if (!initialized) {
-    await db.init();
-    if (process.env.MONGODB_URI) {
-      await connectMongoDB().catch(() => {});
-    }
-    appInstance = createApp();
-    initialized = true;
-  }
-  return appInstance(req, res);
+  const app = await getApp();
+  return app(req, res);
 }
